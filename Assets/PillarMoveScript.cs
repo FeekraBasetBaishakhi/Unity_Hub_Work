@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PillarMoveScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float moveSpeed = 5;
+
+    // feekraaaa is called before the first frame update
     void Start()
     {
         
@@ -13,6 +15,6 @@ public class PillarMoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = transform.position + (Vector3.left * moveSpeed);
     }
 }
