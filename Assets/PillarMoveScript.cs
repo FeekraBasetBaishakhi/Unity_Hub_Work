@@ -15,6 +15,7 @@ public class PillarMoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position + (Vector3.left * moveSpeed);
+        transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;//ensure the multiplication happens the same, jekono frame rate er jonno
+
     }
 }
