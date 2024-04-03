@@ -7,10 +7,11 @@ public class PipeSpawn : MonoBehaviour
     public GameObject obj;
     public float spawnRate = 2;
     private float timer = 0;
+    public float heightoffset = 10;
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawnPipe();
     }
 
     // Update is called once per frame
@@ -22,8 +23,14 @@ public class PipeSpawn : MonoBehaviour
         }
         else
         {
-            Instantiate(obj, transform.position, transform.rotation);   //prefrrub kaj korar jonno jeta add korlam public obj diye
+            spawnPipe();
             timer = 0;
         }
+    }
+    void spawnPipe()
+    {
+        float lowestPoint = transform.position.y - heightoffset;
+        float highestPoint = transform.position.y + heightoffset;
+        Instantiate(obj, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0), transform.rotation);
     }
 }
