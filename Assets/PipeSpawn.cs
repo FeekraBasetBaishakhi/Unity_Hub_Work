@@ -1,17 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class PipeSpawnScript : MonoBehaviour
+public class PipeSpawn : MonoBehaviour
 {
-    public GameObject pipe;
-    public float spawnRate = 3;
+    public GameObject obj;
+    public float spawnRate = 2;
     private float timer = 0;
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(pipe, transform.position, transform.rotation); //it will create an object specified position and rotation
+        
     }
 
     // Update is called once per frame
@@ -23,7 +22,7 @@ public class PipeSpawnScript : MonoBehaviour
         }
         else
         {
-            Instantiate(pipe, transform.position, transform.rotation); //it will create an object specified position and rotation
+            Instantiate(obj, transform.position, transform.rotation);   //prefrrub kaj korar jonno jeta add korlam public obj diye
             timer = 0;
         }
     }
