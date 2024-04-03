@@ -24,6 +24,7 @@ public class PipeSpawnScript : MonoBehaviour
         else
         {
             Instantiate(pipe, transform.position, transform.rotation); //it will create an object specified position and rotation
+            timer = 0;
         }
     }
 }
