@@ -11,7 +11,7 @@ public class PipeSpawnScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Instantiate(pipe, transform.position, transform.rotation); //it will create an object specified position and rotation
     }
 
     // Update is called once per frame
