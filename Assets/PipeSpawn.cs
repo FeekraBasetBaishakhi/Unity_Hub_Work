@@ -27,7 +27,7 @@ public class PipeSpawn : MonoBehaviour
             timer = 0;
         }
     }
-    void spawnPipe()
+    void spawnPipe()//bird er lafalafi
     {
         float lowestPoint = transform.position.y - heightoffset;
         float highestPoint = transform.position.y + heightoffset;
