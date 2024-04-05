@@ -5,7 +5,13 @@ using UnityEngine.UI;
 
 public class LogicScript : MonoBehaviour
 {
-    public int playerScore;
+    public int scorePlyer;
     public Text textScore;
+    
+    public void  scoreAdd()// for showcasing number
+    {
+        scorePlyer = scorePlyer + 1;    
+
+    }
     
 }
