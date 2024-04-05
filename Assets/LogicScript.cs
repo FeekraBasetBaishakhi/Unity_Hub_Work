@@ -10,7 +10,8 @@ public class LogicScript : MonoBehaviour
     
     public void  scoreAdd()// for showcasing number
     {
-        scorePlyer = scorePlyer + 1;    
+        scorePlyer = scorePlyer + 1;
+        textScore.text = scorePlyer.ToString();
 
     }
     
