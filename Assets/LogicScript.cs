@@ -5,6 +5,6 @@ using UnityEngine.UI;
 
 public class LogicScript : MonoBehaviour
 {
-    public indexer playerScore;
+    public int playerScore;
     
 }
