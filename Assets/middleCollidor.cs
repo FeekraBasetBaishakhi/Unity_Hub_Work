@@ -19,6 +19,7 @@ public class middleCollidor : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collison)// whenver object hot the trigger
     {
-            
+        if (collison.gameObject.layer ==3)
+        logic.scoreAdd(1); 
     }
 }
