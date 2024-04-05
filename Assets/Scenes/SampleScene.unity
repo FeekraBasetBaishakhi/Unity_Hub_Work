@@ -297,7 +297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!222 &953352953
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ GameObject:
   - component: {fileID: 2134418052}
   m_Layer: 0
   m_Name: Logic Manager
-  m_TagString: Untagged
+  m_TagString: Logic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,5 +720,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acd524c6cc6e0c4b9b97661ccddf6d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerScore: 0
+  scorePlyer: 1
   textScore: {fileID: 953352952}
