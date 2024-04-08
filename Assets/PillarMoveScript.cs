@@ -20,7 +20,7 @@ public class PillarMoveScript : MonoBehaviour
         transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;//ensure the multiplication happens the same, jekono frame rate er jonno and also needed prefrabricated gameobject
         if(transform.position.x < deadZone)
         {
-            Debug.Log("Feekra's Pipe Deleted")
+            Debug.Log("Feekra's Pipe Deleted");
             Destroy(gameObject);    
         }
     }
