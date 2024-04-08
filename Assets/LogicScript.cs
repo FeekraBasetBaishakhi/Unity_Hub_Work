@@ -22,7 +22,7 @@ public class LogicScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    public void gameOver()
+    public void gameOver()// pipe er sathe bari khailei ashbe sudhu
     {
         gameOverScreen.SetActive(true);
     }

@@ -11,6 +11,7 @@ public class BirdScript : MonoBehaviour
     
     void Start()
     {
+        gameObject.name = "Feekra";
        logic =GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
@@ -21,10 +22,6 @@ public class BirdScript : MonoBehaviour
         {
             myRigidbody.velocity = Vector2.up * flapStrength;
         }
-        //if (transform.position.y > 17||)
-        //{
-
-        //}
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
