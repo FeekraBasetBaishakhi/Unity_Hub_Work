@@ -25,5 +25,6 @@ public class LogicScript : MonoBehaviour
     public void gameOver()// pipe er sathe bari khailei ashbe sudhu
     {
         gameOverScreen.SetActive(true);
+        //gameOverScreen.SetActive(false);
     }
 }
