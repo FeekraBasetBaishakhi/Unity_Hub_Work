@@ -21,7 +21,7 @@ public class middleCollidor : MonoBehaviour
     {
         if (collison.gameObject.layer == 3)
         {
-            logic.scoreAdd(1);
+            logic.scoreAdd(1);//another layer
         }
     }
 }
