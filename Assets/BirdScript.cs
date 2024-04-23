@@ -15,7 +15,7 @@ public class BirdScript : MonoBehaviour
        logic =GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) == true && birdIsAlive ==true)
