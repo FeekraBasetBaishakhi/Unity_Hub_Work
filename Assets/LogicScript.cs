@@ -12,7 +12,7 @@ public class LogicScript : MonoBehaviour
 
 
     [ContextMenu("Increase Score")]//to run in unity
-    public void  scoreAdd(int scoreToAdd)// for showcasing number
+    public void  scoreAdd(int scoreToAdd)// for showcasing number in screen
     {
         scorePlyer = scorePlyer + scoreToAdd;
         textScore.text = scorePlyer.ToString();//
