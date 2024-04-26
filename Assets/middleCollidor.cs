@@ -12,7 +12,7 @@ public class middleCollidor : MonoBehaviour
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>(); // works excectly like adragging dropping but its work instantly
     }
 
-    // Update is called once per frame
+    
     void Update()//codes needed for fixing so updating
     {
         
