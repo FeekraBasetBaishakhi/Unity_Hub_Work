@@ -6,7 +6,7 @@ using UnityEngine;
 public class middleCollidor : MonoBehaviour
 {
     public LogicScript logic;
-    // Start is called before the first frame update
+    
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>(); // works excectly like adragging dropping but its work instantly
