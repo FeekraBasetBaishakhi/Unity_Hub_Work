@@ -13,7 +13,7 @@ public class middleCollidor : MonoBehaviour
     }
 
     
-    void Update()//codes needed for fixing so updating
+    void Update()//codes needed for fixing so updating thscreene score in 
     {
         
     }
