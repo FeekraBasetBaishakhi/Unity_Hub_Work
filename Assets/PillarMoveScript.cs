@@ -8,7 +8,7 @@ public class PillarMoveScript : MonoBehaviour
     public float deadZone = -35;
 
 
-    // feekraaaa is called before the first frame update
+    // feekraaaa is needed to be called before the first frame update
     void Start()
     {
         
