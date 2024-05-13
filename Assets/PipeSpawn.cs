@@ -14,7 +14,7 @@ public class PipeSpawn : MonoBehaviour
         spawnPipe();
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
         if (timer < spawnRate)
